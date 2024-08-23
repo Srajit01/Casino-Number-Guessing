@@ -3,6 +3,8 @@ Simple implementation of a Casino-style number guessing game in C++. The player 
 Random Number Generation:
 
 The program generates a random number between 1 and 100 using the rand() function. The srand() function is used to seed the random number generator with the current time, ensuring that the number is different each time the game is played.
+
+
 Player Input:
 
 The player is prompted to guess the number. The player's input is stored in the variable playerGuess.
